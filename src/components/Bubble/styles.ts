@@ -31,13 +31,13 @@ export const Head = styled.div`
 export const Body = styled.div`
   width: 120px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 40%;
   background: linear-gradient(to right, var(--green), var(--blue));
   position: relative;
   z-index: 8;
   left: 50px;
   display: flex;
-  bottom: 20px;
+  bottom: 45px;
 
   &::after {
     content: '';
@@ -45,7 +45,7 @@ export const Body = styled.div`
     z-index: -1;
     height: 105%;
     width: 105%;
-    border-radius: 50%;
+    border-radius: 40%;
     background: inherit;
     filter: blur(6px);
   }
