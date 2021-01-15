@@ -1,11 +1,14 @@
 import React from 'react';
 
-import { Container, Head, Body } from './styles';
+import { Container, Head, Body, EyeLeft, EyeRight } from './styles';
 
 const Bubble: React.FC = () => {
   return (
     <Container>
-      <Head />
+      <Head>
+        <EyeLeft />
+        <EyeRight />
+      </Head>
       <Body />
     </Container>
   );
