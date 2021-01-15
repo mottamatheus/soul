@@ -63,7 +63,7 @@ export const EyeLeft = styled.div`
     rgba(255, 255, 255, 0.95),
     rgba(250, 250, 250, 0.95)
   );
-  box-shadow: 0px 0px 3px 1px purple;
+  box-shadow: 0px 0px 3px 2px #727fb7;
 `;
 
 export const EyeRight = styled.div`
@@ -78,5 +78,19 @@ export const EyeRight = styled.div`
     rgba(255, 255, 255, 0.95),
     rgba(250, 250, 250, 0.95)
   );
-  box-shadow: 0px 0px 3px 1px purple;
+  box-shadow: 0px 0px 3px 2px #727fb7;
+`;
+
+export const Eyeball = styled.div`
+  width: 22px;
+  height: 20px;
+  background-image: radial-gradient(
+    farthest-corner at 10px 15px,
+    #8e80f2 0%,
+    #6937cd 100%
+  );
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+  top: 17px;
 `;
