@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Head = styled.div`
   width: 200px;
-  height: 170px;
+  height: 180px;
   border-radius: 50%;
   background: linear-gradient(to right, var(--green), var(--blue));
   position: relative;
